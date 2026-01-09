@@ -672,7 +672,8 @@ input, select, textarea {
 
 		.image img {
 			border-radius: 4px;
-			display: block;
+			display: flex;
+			align_items: center;
 		}
 
 		.image.left, .image.right {
@@ -1670,4 +1671,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
